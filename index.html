@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MUSIC PLAYER</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/auricular.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">MUSIC PLAYER</a></h1>
+      
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a id="historial">Historial</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+  </header>
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>  Entering the wonderful world of music.</h1>
+      <h2> It does not admit borders, nor limits, nor race nor differences, just enjoy</h2>
+    </div>
+  </section>
+
+  <main id="main">
+    
+    
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+         
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <h3><input type="submit" id="reproducirsiguientecancionboton" value="REPRODUCIR SIGUIENTE CANCION"></h3>
+
+            </div>
+          </div>
+          
+          
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <h3><input type="submit" id="borrarultimacancionboton" value="BORRAR ULTIMA CANCION"></h3>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+  
+              <h3><input type="submit" value="IMPORTAR LISTA" id="importarlistaboton"></h3>
+            </div>
+          </div>
+         
+          
+          <div class="col-lg-3 col-md-4 mt-4 text-center container">
+            <div class="icon-box">
+             
+              <h3><input type="submit" value="EXPORTAR LISTA" id="exportarlistaboton"></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 text-center container">
+            <div class="icon-box">
+              
+             <h3> <input type="submit" id="verplaylistboton" value="Ver PLAYLIST"></h3>
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 mt-4 text-center container">
+            <div class="icon-box">
+              
+             <h3> <input type="submit" id="reproducirplaylist" value="REPRODUCIR PLAYLIST"></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 text-center container">
+            <div class="icon-box">
+              
+             <h3> <input type="submit" id="quecancionsuenaboton" value="QUE CANCION SUENA?"></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 text-center container">
+            <div class="icon-box">
+              
+             <h3> <input type="submit" id="pararplaylistboton" value="PARAR PLAYLIST"></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p> Disponibilidad de la lista</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+        <!-- 1-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SONG</h4>
+                  <h4>REGGAETON</h4>
+                  <a class="get-started-btn" id="aggsafaera" >AGREGAR</a>
+                </div>
+                <article>
+                 <audio id="h1" src="assets/music/y2mate.com - Safaera - Bad Bunny x Jowell & Randy x Ñengo Flow _ YHLQMDLG_jCQ_6XbATPc.mp3" controls="controls"></audio>
+                 </article>
+
+                <h3><a href="course-details.html" id="t1"></a></h3>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                    <span id="s1"></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;50
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;65
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <!-- 2-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SONG</h4>
+                  <h4>ELÉCTRONICA</h4>
+                  <a  class="get-started-btn" id="agganimals">AGREGAR</a>
+                </div>
+
+                <article>
+                  <audio id="h2" src="assets/music/y2mate.com - Martin Garrix - Animals (Official Video)_gCYcHz2k5x0.mp3" controls="controls"></audio>
+                  </article>
+
+                <h3><a href="course-details.html" id="t2"></a></h3>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                    <span id="s2"></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;35
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;42
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- 3-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SONG</h4>
+                  <h4>ROCK AND ROLL</h4>
+                  <a class="get-started-btn" id="aggbohemia">AGREGAR</a>
+                </div>
+
+                 <article >
+                 <audio id="h3" src="assets/music/b.mp3" controls="controls"></audio>
+                 </article>
+
+                <h3><a href="course-details.html" id="t3"></a></h3>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+                    <span id="s3"></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;20
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;85
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- END-->
+
+           <!-- 1-->
+
+           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets/img/05.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SONG</h4>
+                  <h4>REGGAETON</h4>
+                  <a class="get-started-btn" id="aggpose">AGREGAR</a>
+                </div>
+                <article>
+                 <audio id="h4" src="assets/music/Pose__BASS__-_Daddy_Yankee.mp3"controls=controls"></audio>
+                 </article>
+
+                <h3><a href="course-details.html" id="t4"></a></h3>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/003.jpg" class="img-fluid" alt="">
+                    <span id="s4"></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;50
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;65
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <!-- 2-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="assets/img/01.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SONG</h4>
+                  <h4>ELÉCTRONICA</h4>
+                  <a class="get-started-btn" id="aggsymp">AGREGAR</a>
+                </div>
+
+                <article>
+                  <audio id="h5" src="assets/music/1 - Clean Bandit - Symphony (feat. Zara Larsson).mp3" controls="controls"></audio>
+                  </article>
+
+                <h3><a href="course-details.html" id="t5"></a></h3>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/001.jpg" class="img-fluid" alt="">
+                    <span id="s5"></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;35
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;42
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- 3-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets/img/y.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SONG</h4>
+                  <h4>ROCK AND ROLL</h4>
+                  <a class="get-started-btn" id="aggaero">AGREGAR</a>
+                </div>
+
+                 <article >
+                 <audio id="h6" src="assets/music/Aerosmith_-I_Dont_Want_To_Miss_A_Thing.mp3" controls="controls"></audio>
+                 </article>
+
+                <h3><a href="course-details.html" id="t6"></a></h3>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="assets/img/trainers/3.jpg" class="img-fluid" alt="">
+                    <span id="s3"></span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;20
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;85
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- END-->
+
+ <!-- 1-->
+
+ <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+  <div class="course-item">
+    <img src="assets/img/10.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>REGGAETON</h4>
+        <a class="get-started-btn" id="aggtusa">AGREGAR</a>
+      </div>
+      <article>
+       <audio id="h7" src="assets/music/KAROL G, Nicki Minaj - Tusa.mp3"controls="controls"></audio>
+       </article>
+
+      <h3><a href="course-details.html" id="t7"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/010.jpg" class="img-fluid" alt="">
+          <span id="s7"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;50s
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;65
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- 2-->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+  <div class="course-item">
+    <img src="assets/img/011.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>ELÉCTRONICA</h4>
+        <a class="get-started-btn" id="aggaron">AGREGAR</a>
+      </div>
+
+      <article>
+        <audio id="h8" src="assets/music/Aron_Chupa_–_Im_An_Albatraoz_Jack_H.mp3" controls="controls"></audio>
+        </article>
+
+      <h3><a href="course-details.html" id="t8"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/11.png" class="img-fluid" alt="">
+          <span id="s8"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;35
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;42
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- 3-->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+  <div class="course-item">
+    <img src="assets/img/02.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>ROCK AND ROLL</h4>
+        <a class="get-started-btn" id="aggbeat">AGREGAR</a>
+      </div>
+
+       <article >
+       <audio id="h9" src="assets/music/21666_The-Beatles-Hey-Jude.mp3" controls="controls"></audio>
+       </article>
+
+      <h3><a href="course-details.html" id="t9"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/002.jpg" class="img-fluid" alt="">
+          <span id="s9"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;20
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;85
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- END-->
+
+ <!-- 1-->
+
+ <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+  <div class="course-item">
+    <img src="assets/img/07.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>REGGAETON</h4>
+        <a class="get-started-btn" id="aggbebe">AGREGAR</a>
+      </div>
+      <article>
+       <audio id="h10" src="assets/music/AnuelVEVO - La Bebe REMIX (Me Pide Leche)  Anuel uhhGfnLxGwM.m4a" controls="controls"></audio>
+       </article>
+
+      <h3><a href="course-details.html" id="t10"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/08.jpg" class="img-fluid" alt="">
+          <span id="s10"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;50
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;65
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- 2-->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+  <div class="course-item">
+    <img src="assets/img/003.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>ELÉCTRONICA</h4>
+        <a class="get-started-btn" id="aggrock">AGREGAR</a>
+      </div>
+
+      <article>
+        <audio id="h11" src="assets/music/Clean_Bandit_Rockabye_ft_Sean_Paul.mp3" controls="controls"></audio>
+        </article>
+
+      <h3><a href="course-details.html" id="t11"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/001.jpg" class="img-fluid" alt="">
+          <span id="s11"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;35
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;42
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- 3-->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+  <div class="course-item">
+    <img src="assets/img/04.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>ROCK AND ROLL</h4>
+        <a class="get-started-btn" id="aggpinc">AGREGAR</a>
+      </div>
+
+       <article >
+       <audio id="h12" src="assets/music/Pink Floyd – Another Brick In The Wall Part 2.mp3" controls="controls"></audio>
+       </article>
+
+      <h3><a href="course-details.html" id="t12"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/004.jpg" class="img-fluid" alt="">
+          <span id="s12"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;20
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;85
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- END-->
+
+ <!-- 1-->
+
+ <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+  <div class="course-item">
+    <img src="assets/img/11.png" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>REGGAETON</h4>
+        <a class="get-started-btn" id="aggYope">AGREGAR</a>
+      </div>
+      <article>
+       <audio id="h13" src="assets/music/Yo Perreo Sola - Bad Bunny _ YHLQMDLG br9Bz-x0LeQ.m4a" controls="controls"></audio>
+       </article>
+
+      <h3><a href="course-details.html" id="t13"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+          <span id="s13"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;50
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;65
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- 2-->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+  <div class="course-item">
+    <img src="assets/img/12.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>ELÉCTRONICA</h4>
+        <a  class="get-started-btn" id="aggpart">AGREGAR</a>
+      </div>
+
+      <article>
+        <audio id="h14" src="assets/music/LMFAO – Party Rock Anthem (Peppermint Private Rework).mp3" controls="controls"></audio>
+        </article>
+
+      <h3><a href="course-details.html" id="t14"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/012.jpg" class="img-fluid" alt="">
+          <span id="s14"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;35
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;42
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- 3-->
+
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+  <div class="course-item">
+    <img src="assets/img/06.jpg" class="img-fluid" alt="...">
+    <div class="course-content">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>SONG</h4>
+        <h4>ROCK AND ROLL</h4>
+        <a class="get-started-btn" id="aggwann">AGREGAR</a>
+      </div>
+
+       <article >
+       <audio id="h15" src="assets/music/Queen - I Want To Break Free.mp3" controls="controls"></audio>
+       </article>
+
+      <h3><a href="course-details.html" id="t15"></a></h3>
+      <div class="trainer d-flex justify-content-between align-items-center">
+        <div class="trainer-profile d-flex align-items-center">
+          <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+          <span id="s15"></span>
+        </div>
+        <div class="trainer-rank d-flex align-items-center">
+          <i class="bx bx-user"></i>&nbsp;20
+          &nbsp;&nbsp;
+          <i class="bx bx-heart"></i>&nbsp;85
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- END-->
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="trainers" class="trainers">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Mundo de la música</h2>
+          <p>Mas informacion.</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Bad Bunny</h4>
+                <span>Solista</span>
+                <p>
+                  Benito Antonio Martínez Ocasio, más conocido por su nombre artístico Bad Bunny, es un cantante, rapero y trapero puertorriqueño de género reguetón y trap latino.
+                </p>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Martin Garrix</h4>
+                <span>Dj</span>
+                <p>
+                  Martijn Gerard Garritsen, ​​ más conocido como Martin Garrix, es un DJ y productor neerlandés fundador del sello STMPD RCRDS. Ingresó a la encuesta anual Top 100 DJ's realizada por la revista DJ Magazine, directamente al puesto 40.
+                </p>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Queen</h4>
+                <span>Banda</span>
+                <p>
+                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                </p>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  
+
+  
+  <script src="assets/js/main.js"></script>
+  <script src="js/BotonesPlaylistFilaJs.js"></script>
+  <script src="js/pila.js"></script>
+
+</body>
+
+</html>
