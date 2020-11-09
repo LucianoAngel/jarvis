@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>J A R V I S</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="icon.png" href="icon.png">
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+</head>
+<body>
+	<span id="span"><div class="contenedor">
+		<article>
+		</article>
+
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<p class="btn-cerrar-popup" id="btn-cerrar-popup">❌</p>
+				<h3>Hola soy Jarvis 🙋‍♀️</h3>
+				<h4> 🤖 te ayudaré a mantener
+				 la inteligencia en tu habitación</h4>
+				 <h4>Dime tu nombre para conocerte mejor🤭</h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="text" placeholder=" ✅ Introduce tu nombre" id="name">
+					</div>
+					<input type="submit" class="btn-submit" id='comenzemos' value="Comenzemos">
+				</form>
+			</div>
+		</div>
+	</div></span>
+	<!--section de Siri-->
+	<section class="seccionToggle">
+		<div class="wrap">
+			<h2>Mi programador me nombró "Jarvis"</h>
+			<p>Te ayudare a gestionar de forma intuitiva, confortable y agradable nuestra habitación</br> convirtiendola en inteligente, es desarrollada por Angel Raga, pasaremos de una habitación</br> aburrida donde tienes que encender y manipular tus artefactos por tí mismo a una controlada</br> por Mí Jarvis,espero la disfrutes</p>
+			<button>Recuerda Ahorrar Energia🌎</button>
+		</div>
+	</section>
+	<a href="#" id="btn-toggle" class="btn-toggle">Baja y Descubre Más</a>
+<!--class main-->
+<div class="main">
+	<!--Cerrar siri-->
+	<div class="izquierda">
+	<h2>Un placer ayudarte a controlar tu habitacion inteligente</h2>
+	<p>Veo que ya diste el paso hacia el futuro y la comodidad que este ofrece</p>
+	<p>Para una habitacion inteligente, una gestion inteligente</p>
+	<h3>considerame tu mejor amiga ten confianza no temas</h3>
+	</div>
+	<!--Sensores-->
+	<div class="derecha">
+	<h2>Empezemos con la guia, lee atentamente</h2>
+	<p>Para controlar un aparato de tu habitacion utilizaras los clicks</p>
+	<p>Puedes encender un aparato dando un click sobre el</p>
+	<p>Puedes apagar un aparato dando dos clicks sobre el</p>
+	</div>
+	</div>
+	<section class="restomain">
+	<!--interruptores-->
+	<h3> Puedes seleccionar algun elemento de tu habitacion y este se accionará,prueba!</h3>
+	<img src="csss/fondo1.jpg" id="map" alt="" usemap="#map1574808982833" class="imaje">
+	<div class="acordeon">
+		<div class="sub">
+	<div class="titulo1"><p class="bombillop">bombillo principal</p></div>
+	<div class="infbom"><p class="bombilloinformacion" id="textobombillo">El bombillo principal actualmente esta apagado</p></div>
+		</div>
+		<div class="sub">
+	<div class="titulo1"><p class="bombillop">Luces LED</p></div>
+	<div class="infbom"><p class="bombilloinformacion" id="textoled">Las Luces LED actualmente estan apagadas</p></div>
+		</div>
+		<div class="sub">
+	<div class="titulo1"><p class="bombillop">Televisor</p></div>
+	<div class="infbom"><p class="bombilloinformacion" id="textotv">El Televisor actualmente esta apagado</p></div>
+		</div>
+		<div class="sub">
+	<div class="titulo1"><p class="bombillop">Computadora</p></div>
+	<div class="infbom"><p class="bombilloinformacion" id="textopc">La Computadora actualmente esta apagada</p></div>
+		</div>
+		<div class="sub">
+	<div class="titulo1"><p class="bombillop">Bocina Bluetooth</p></div>
+	<div class="infbom"><p class="bombilloinformacion" id="textobocina">La Bocina Bluetooth actualmente esta apagada</p></div>
+		</div>
+	</div>
+	</div>
+</section>
+<!--Imagen-->
+<map id="map1574808982833" name="map1574808982833">
+	<area shape="rect" coords="852,260,1106,421" title="PC" alt="#"  target="_self" id="clickpc">
+	<area shape="rect" coords="581,347,623,401" title="Tv" alt="#"  target="_self" id="clicktv" >
+	<area shape="rect" coords="404,587,836,783" title="bocinas" alt="#"  target="_self" id="clickbocina">
+	<area shape="rect" coords="125,324,177,410" title="luz" alt="#"  target="_self" id="clickluz">
+	<area shape="rect" coords="219,245,529,277" title="LEDS" alt="#"  target="_self" id="clickled">
+</map>
+<!--img-->
+<script src="popup.js"></script>
+</body>
+</html>
